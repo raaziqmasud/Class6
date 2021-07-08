@@ -1,0 +1,49 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    bottom: 100%;
+    left: 50%;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin-left: -40px;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  @font-face {
+    font-family: STITCHLAND1;
+    src: url(/STITCHLAND1.otf);
+  }
+
+  p{
+    font-family: STITCHLAND1;
+    color: black;
+    font-size: 100px
+  }
+
+  body{
+    background-image: radial-gradient(gray, WHITE, yellow);
+    height: 1000px;
+    width: auto;
+  }
+
+  nav{
+    background-image: linear-gradient(WHITE, gray);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: large;
+    text-align: left;
+
+  }
